@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 
-public Problem_4 {
+public class Problem_4 {
 	 public static void main(String[] args) throws FileNotFoundException, IOException {
 	        FileReader fr = new FileReader("C:/Users/Muniat/Desktop/Test/Muniat.txt");
 	        BufferedReader br = new BufferedReader(fr);

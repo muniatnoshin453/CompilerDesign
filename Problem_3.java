@@ -26,8 +26,9 @@ public class Problem_3 {
         catch (ScriptException e) {
             e.printStackTrace();
         }
+i++;
 		
-		}while(i<=10);
+		}while(i<=2);
 		
 		scan.close();
 	

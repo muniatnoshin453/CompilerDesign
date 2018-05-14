@@ -4,7 +4,7 @@ public class Problem_7{
 	 public static void main(String[] args) throws FileNotFoundException
 	   {
 	      Scanner fileScanner = new Scanner(new File("C:/Users/Muniat/Desktop/Test/Muniat.txt"));
-	      //fileScanner.useDelimiter("[^A-Za-z0-9]");
+	      fileScanner.useDelimiter("[^A-Za-z0-9]");
 	      ArrayList<String> words = new ArrayList<String>();
 	      while (fileScanner.hasNext())
 	      { 
